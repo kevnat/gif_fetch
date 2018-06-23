@@ -1,0 +1,13 @@
+.button{
+    background-color: forestgreen;
+    padding: 5px;
+    border: 2px;
+  }
+  
+  img{
+      float: left;
+  }
+
+   p{
+      float:left;
+  } 

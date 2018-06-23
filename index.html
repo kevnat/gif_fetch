@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reaction GIF Search</title>
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+    
+  </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Reaction GIF Search</h1>
+
+    <form id="reaction-form">
+      <!-- <label for="reaction-input"></label> -->
+      <input type="text" id="reaction-input">
+
+      <!-- Button triggers new reaction to be added -->
+      <input id="add-reaction" type="submit" value="Add a reaction" align="right">
+      
+    </form>
+      <!-- reactions will get dumped here -->
+      <div id="buttons-view"></div>
+    
+    <div id = "reaction-view">
+
+    </div>
+
+    <script src = "logic.js"></script>
+
+</body>
+</html>
