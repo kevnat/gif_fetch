@@ -52,7 +52,7 @@ var gifViewer = $("#reaction-view");
     var APIKey = "FAJScj5piDVt2TzZdC1hgKns1BADzvK4";
 
     // Here we are building the URL we need to query the database
-    var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=" + APIKey + "&q=" + reaction + "&limit=10&offset=0&lang=en";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=" + APIKey + "&q=" + reaction + "&limit=10&offset=0&lang=en";
 
     console.log(queryURL);
 
